@@ -1,0 +1,147 @@
+.body-cinema{
+  background-image: url("../img/body3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+
+}
+
+img .logo{
+width: 30px;
+height: 100%;
+
+}
+
+
+.navegacion{
+  height: 15%;
+  background: rgba(14, 24, 255,0.95);
+}
+.container{
+  margin-top: 64px;
+}
+
+.jumbotron{
+  background-image: url("../img/jum.jpg");
+  background-color: gray;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-bottom: 0px;
+}
+
+.titulo-cartelera{
+  min-height: 45px;
+  background: rgba(14, 24, 255,0.95);
+}
+
+.movies-row{
+  min-height: 350px;
+  background: rgba(209,215,255,0.8);
+}
+.movies-column{
+  margin-top: 5px;
+  min-height: 330px;
+  border: dotted 1px green;
+}
+
+.left-column{
+  border-right: dotted 1px red;
+}
+
+.welcome-title{
+  color: white;
+  margin-right: 10px;
+}
+
+.jumbotron-img{
+  margin-top: 20px;
+}
+.jumbotron-text{
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
+.redes-sociales{
+  margin-top: 20px;
+
+}
+
+.img-social{/*formato logo redes sociles*/
+ width: 40px;
+ height: 40px;
+}
+
+.titulo-text{/*formato del titulo*/
+font-size: 18px;
+font-weight: bold;
+color: white;
+padding: 10px;
+}
+
+.movie-title{
+  color: black;
+  padding: 0;
+}
+.img-movies{
+  height: 260px;
+  width: 95%;
+  padding: 5%;
+}
+
+.input-element{
+  width: 100%;
+  height: 28px;
+  padding:10px;
+  color:white;
+  background: rgba(249, 242, 242,0.4);
+  margin-top: 5px;
+  border: none;
+}
+.label-class{
+  color:white;
+  font-size:13px;
+  margin-right:10px;
+}
+.btn-save{
+  width: 40%;
+  background: rgba(10, 26, 241, 0.95);
+  color:white;
+}
+
+@media screen and (max-width 770px) {/*Para que desaparezca en dispositivos pequeños*/
+  .right-column{
+    display: none;
+  }
+
+  .movies-row{
+    min-height: 250px;
+  }
+
+  .movies-column{
+    min-height: 230px;
+  }
+
+.jumbotron{
+  min-height: 400px;
+
+}
+.jumbotron img{
+  margin-top: 20px;
+  position: absolute;
+  left:0;
+
+}
+h2{
+  font-size: 22px;
+}
+
+.titulo-cartelera{
+  height: 15px;
+}
+
+}
